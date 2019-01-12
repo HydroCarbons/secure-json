@@ -2,14 +2,16 @@
 
 # Secure JSON
 - **Secure JSON** JSON storage library to securely persist JSON data on disk. **Cipher** is configured to use **AES-256-CBC** with initialization vector.
-- There are two types of storage schema: inmemory or disk
-- inmemory: Store items are not stored on disk and are not encrypted. 
-- disk: Store items are stored on disk and can be encrypted.
+- There are two types of storage schema: _inmemory_ or _disk_
+  - **inmemory**: Store items are not persisted on disk and are not encrypted.
+  - **disk**: Store items are persisted on disk and can be encrypted.
 
 ## Usage
 
 ### Install
-` npm install secure-json --save `
+```javascript
+npm install secure-json --save
+```
 
 ### Require
 ```javascript
@@ -83,7 +85,7 @@ instance.archive();
 ```
 
 ## Library Usage/Test
-### Try it out
+### Install
 ` npm install `
 
 ### Test
