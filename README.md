@@ -34,6 +34,50 @@ instance.init(options);
 var instance = new SecureJStore();
 ```
 
+### Storing an item
+```javascript
+instance.setItem("key1", "value1");
+```
+
+### Retrieving an item
+```javascript
+let value = instance.getItem("key1");
+```
+
+### Removing an item
+```javascript
+let value = instance.removeItem("key1");
+```
+
+### Retrieving all keys
+```javascript
+let keys = instance.keys();
+```
+
+### Retrieving all values
+```javascript
+let values = instance.values();
+```
+
+### Retrieving all entries of (key, value) pairs
+```javascript
+let items = instance.entries();
+```
+
+### Retrieving all entries with for...of loop
+```javascript
+for(let item of instance ) { ... }
+```
+
+### Retrieving all entries with forEach loop
+```javascript
+instance.forEach( (x) => { ... })
+```
+
+### Archiving instance
+```javascript
+instance.archive()
+```
 
 ## Library Usage/Test
 ### Try it out
