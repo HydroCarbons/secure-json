@@ -1,0 +1,30 @@
+{
+  "name": "secure-json",
+  "version": "1.0.0",
+  "description": "JSON storage library to securely persist json data on disk",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node ./test/test.js",
+    "coverage": "istanbul cover ./test/test.js"
+  },
+  "keywords": [
+    "Secure",
+    "JSON",
+    "Storage",
+    "Persistence",
+    "Get/Set",
+    "AES",
+    "In-Memory",
+    "Disk",
+    "Persist",
+    "Database"
+  ],
+  "author": "HydroCarbons <HydroCarbons@outlook.com> (https://github.com/HydroCarbons)",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "chalk": "^2.4.1"
+  },
+  "dependencies": {
+    "krypton-js": "^1.0.1"
+  }
+}
