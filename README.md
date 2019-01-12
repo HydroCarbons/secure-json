@@ -2,6 +2,9 @@
 
 # Secure JSON
 - **Secure JSON** JSON storage library to securely persist JSON data on disk. **Cipher** is configured to use **AES-256-CBC** with initialization vector.
+- There are two types of storage schema: inmemory or disk
+- inmemory: Store items are not stored on disk and are not encrypted. 
+- disk: Store items are stored on disk and can be encrypted.
 
 ## Usage
 
@@ -71,12 +74,12 @@ for(let item of instance ) { ... }
 
 ### Retrieving all entries with forEach loop
 ```javascript
-instance.forEach( (x) => { ... })
+instance.forEach( (x) => { ... });
 ```
 
 ### Archiving instance
 ```javascript
-instance.archive()
+instance.archive();
 ```
 
 ## Library Usage/Test
