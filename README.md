@@ -1,5 +1,8 @@
 ![Secure-JSON Icon](https://raw.githubusercontent.com/HydroCarbons/secure-json/master/secure-json-256.png)
 
+## Travis CI Status
+[![Build Status](https://travis-ci.com/HydroCarbons/secure-json.svg?branch=master)](https://travis-ci.com/HydroCarbons/secure-json)
+
 # Secure JSON
 - **Secure JSON** JSON storage library to securely persist JSON data on disk. **Cipher** is configured to use **AES-256-CBC** with initialization vector.
 - There are two types of storage schema: _inmemory_ or _disk_
