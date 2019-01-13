@@ -3,19 +3,18 @@
 // Author: HydroCarbons@outlook.com (ADF)
 ////////////////////////////////////////////////////////////////////////////////
 
-const chalk = require('chalk');
 const assert = require('assert');
 const SecureJStore = require('../src/index');
 ////////////////////////////////////////////////////////////////////////////////
 
 function Print(msg) {
-  process.stdout.write( chalk.magenta(msg) );
+  process.stdout.write( msg );
 }
 function PrintPass(msg) {
-  process.stdout.write( chalk.green.bold(msg) );
+  process.stdout.write( msg );
 }
 function PrintFail(msg) {
-  process.stdout.write( chalk.red.bold(msg) );
+  process.stdout.write( msg );
 }
 
 ////////////////////////////////////////////////////////////////////////////////
