@@ -2,6 +2,7 @@
 
 ## Travis CI Status
 [![Build Status](https://travis-ci.com/HydroCarbons/secure-json.svg?branch=master)](https://travis-ci.com/HydroCarbons/secure-json)
+[![Coverage Status](https://coveralls.io/repos/github/HydroCarbons/secure-json/badge.svg?branch=master)](https://coveralls.io/github/HydroCarbons/secure-json?branch=master)
 
 # Secure JSON
 - **Secure JSON** JSON storage library to securely persist JSON data on disk. **Cipher** is configured to use **AES-256-CBC** with initialization vector.
